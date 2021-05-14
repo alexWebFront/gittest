@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Task list</title>
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <div class="wrapper">
+      <form class="task-form" onsubmit="return false">
+         <input type="text" id="input" placeholder="Enter text...">
+         <button id="btn" type="button">Add task</button>
+         <div class="btn-container">
+            <button id="btnDeleteAll" type="button">remove all</button>
+            <button id="btnReadyAll" type="button">ready all</button>
+         </div>
+      </form>
+      <ul id="result"></ul>
+   </div>
+   <script src="./js/main.js"></script>
+</body>
+
+</html>
